@@ -1,0 +1,341 @@
+{
+  "skills": [
+    {
+      "nome": "skill-creator",
+      "grupo": "Criar e descobrir",
+      "origem": "Anthropic",
+      "serve": "Cria, melhora e testa skills próprias a partir de uma rotina sua.",
+      "onde": "Transformo processos que repito (publicar conteúdo, montar propostas) em pacotes reutilizáveis.",
+      "instalar": "npx skills add anthropics/skills --skill skill-creator"
+    },
+    {
+      "nome": "find-skills",
+      "grupo": "Criar e descobrir",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Encontra skills que já existem para uma tarefa.",
+      "onde": "No início de um projeto, antes de criar algo do zero.",
+      "instalar": "npx skills add vercel-labs/skills --skill find-skills"
+    },
+    {
+      "nome": "frontend-design",
+      "grupo": "Design e interface",
+      "origem": "Anthropic",
+      "serve": "Orienta interfaces mais consistentes e menos genéricas: hierarquia, tipografia, espaçamento, estados.",
+      "onde": "Nas telas e páginas dos meus projetos e deste portfólio.",
+      "instalar": "npx skills add anthropics/skills --skill frontend-design"
+    },
+    {
+      "nome": "shadcn",
+      "grupo": "Design e interface",
+      "origem": "shadcn/ui",
+      "serve": "Trabalha com componentes de interface reutilizáveis e personalizáveis.",
+      "onde": "Formulários, tabelas, modais e menus nos sistemas que construo.",
+      "instalar": "npx skills find shadcn"
+    },
+    {
+      "nome": "web-design-guidelines",
+      "grupo": "Design e interface",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Revisa interface e código: contraste, responsividade, estados e usabilidade.",
+      "onde": "Depois da primeira versão de uma página, antes de mostrar ao cliente.",
+      "instalar": "npx skills find web-design-guidelines"
+    },
+    {
+      "nome": "ai-image-generation",
+      "grupo": "Imagem e vídeo",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Orienta geração de imagens com modelos de IA.",
+      "onde": "Capas, thumbnails e imagens de conteúdo.",
+      "instalar": "npx skills find ai-image-generation"
+    },
+    {
+      "nome": "nano-banana-2",
+      "grupo": "Imagem e vídeo",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Fluxo de geração e edição de imagens ligado a um modelo específico.",
+      "onde": "Variações da mesma imagem para formatos diferentes.",
+      "instalar": "npx skills find nano-banana-2"
+    },
+    {
+      "nome": "ai-video-generation",
+      "grupo": "Imagem e vídeo",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Organiza fluxos de geração de vídeo com IA.",
+      "onde": "Vídeos curtos e storyboards.",
+      "instalar": "npx skills find ai-video-generation"
+    },
+    {
+      "nome": "brainstorming",
+      "grupo": "Produto e engenharia",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Transforma uma ideia solta em escopo claro por perguntas e etapas.",
+      "onde": "Antes de pedir código, na definição de um projeto.",
+      "instalar": "npx skills find brainstorming"
+    },
+    {
+      "nome": "mcp-builder",
+      "grupo": "Produto e engenharia",
+      "origem": "Anthropic",
+      "serve": "Cria servidores MCP para conectar o agente a sistemas externos.",
+      "onde": "Integrações do agente com bancos, CRMs e serviços.",
+      "instalar": "npx skills add anthropics/skills --skill mcp-builder"
+    },
+    {
+      "nome": "webapp-testing",
+      "grupo": "Produto e engenharia",
+      "origem": "Anthropic",
+      "serve": "Orienta testes e verificações em aplicações web.",
+      "onde": "Fluxos críticos (login, cadastro, checkout) antes de entregar.",
+      "instalar": "npx skills add anthropics/skills --skill webapp-testing"
+    },
+    {
+      "nome": "supabase",
+      "grupo": "Produto e engenharia",
+      "origem": "Supabase",
+      "serve": "Apoia decisões e implementações com PostgreSQL no Supabase.",
+      "onde": "Modelagem de tabelas e políticas de acesso.",
+      "instalar": "npx skills find supabase"
+    },
+    {
+      "nome": "stripe",
+      "grupo": "Produto e engenharia",
+      "origem": "Stripe",
+      "serve": "Orienta pagamentos, assinaturas, webhooks e cobrança.",
+      "onde": "Quando o produto cobra.",
+      "instalar": "npx skills find stripe"
+    },
+    {
+      "nome": "pdf",
+      "grupo": "Documentos",
+      "origem": "Anthropic",
+      "serve": "Lê, extrai, cria e edita PDFs.",
+      "onde": "E-books, relatórios e propostas.",
+      "instalar": "npx skills add anthropics/skills --skill pdf"
+    },
+    {
+      "nome": "pptx",
+      "grupo": "Documentos",
+      "origem": "Anthropic",
+      "serve": "Cria e organiza apresentações em PowerPoint.",
+      "onde": "Apresentações comerciais e de projeto.",
+      "instalar": "npx skills add anthropics/skills --skill pptx"
+    },
+    {
+      "nome": "docx",
+      "grupo": "Documentos",
+      "origem": "Anthropic",
+      "serve": "Cria e estrutura documentos Word.",
+      "onde": "Propostas, escopos e briefings.",
+      "instalar": "npx skills add anthropics/skills --skill docx"
+    },
+    {
+      "nome": "copywriting",
+      "grupo": "Conteúdo",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Textos persuasivos orientados à conversão.",
+      "onde": "Landing pages, e-mails e chamadas para ação.",
+      "instalar": "npx skills find copywriting"
+    },
+    {
+      "nome": "content-strategy",
+      "grupo": "Conteúdo",
+      "origem": "Comunidade (skills.sh)",
+      "serve": "Organiza temas, formatos, canais e reaproveitamento de conteúdo.",
+      "onde": "Planejar vídeos, posts e newsletter a partir de um tema.",
+      "instalar": "npx skills find content-strategy"
+    },
+    {
+      "nome": "remotion-best-practices",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Roteador e boas práticas para todos os fluxos Remotion.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-best-practices"
+    },
+    {
+      "nome": "remotion-captions",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Legendas em vídeos Remotion.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-captions"
+    },
+    {
+      "nome": "remotion-create",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Criação de vídeos programáticos com Remotion.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-create"
+    },
+    {
+      "nome": "remotion-docs",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Consulta à documentação do Remotion.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-docs"
+    },
+    {
+      "nome": "remotion-interactivity",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Interatividade em composições Remotion.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-interactivity"
+    },
+    {
+      "nome": "remotion-maps",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Mapas animados em vídeos.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-maps"
+    },
+    {
+      "nome": "remotion-markup",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Marcações e anotações visuais em vídeos.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-markup"
+    },
+    {
+      "nome": "remotion-multimedia",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Áudio, vídeo e imagens em composições.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-multimedia"
+    },
+    {
+      "nome": "remotion-render",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Renderização e exportação de vídeos.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-render"
+    },
+    {
+      "nome": "remotion-saas",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Vídeos de produto e SaaS.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-saas"
+    },
+    {
+      "nome": "remotion-studio",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Uso do Remotion Studio.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-studio"
+    },
+    {
+      "nome": "remotion-upgrade",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "Remotion (remotion-dev)",
+      "serve": "Atualização de projetos Remotion.",
+      "onde": "Vídeos de conteúdo e peças animadas feitos em código.",
+      "instalar": "npx skills add remotion-dev/skills --skill remotion-upgrade"
+    },
+    {
+      "nome": "remotion-video-agent",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "frankxai (awesome-motion-design-agent-skills)",
+      "serve": "Agente de vídeo sobre Remotion.",
+      "onde": "Fluxos de vídeo automatizados.",
+      "instalar": "npx skills add frankxai/awesome-motion-design-agent-skills --skill remotion-video-agent"
+    },
+    {
+      "nome": "site-motion-excellence-director",
+      "grupo": "Vídeo com código (Remotion)",
+      "origem": "frankxai (awesome-motion-design-agent-skills)",
+      "serve": "Direção de movimento e animação para sites.",
+      "onde": "Animações e microinterações em páginas.",
+      "instalar": "npx skills add frankxai/awesome-motion-design-agent-skills --skill site-motion-excellence-director"
+    },
+    {
+      "nome": "xlsx",
+      "grupo": "Documentos",
+      "origem": "Anthropic",
+      "serve": "Lê, cria e edita planilhas (.xlsx, .csv).",
+      "onde": "Planilhas e limpeza de dados.",
+      "instalar": "npx skills add anthropics/skills --skill xlsx"
+    },
+    {
+      "nome": "instagram-carousel",
+      "grupo": "Conteúdo",
+      "origem": "Skill do ambiente Claude",
+      "serve": "Cria carrosséis de Instagram em HTML com exportação em PNG 1080×1350.",
+      "onde": "Carrosséis de conteúdo.",
+      "instalar": "Já vem disponível no Claude; veja a documentação da sua versão."
+    },
+    {
+      "nome": "animated-website",
+      "grupo": "Design e interface",
+      "origem": "Skill do ambiente Claude",
+      "serve": "Transforma um vídeo em site com animação controlada pelo scroll.",
+      "onde": "Páginas cinematográficas de produto e portfólio.",
+      "instalar": "Já vem disponível no Claude; veja a documentação da sua versão."
+    }
+  ],
+  "plugins": [
+    {
+      "nome": "social-media-skills",
+      "serve": "Estratégia, roteiros, design, publicação e análise de redes sociais (106 skills).",
+      "onde": "Planejamento e produção do conteúdo das minhas redes."
+    },
+    {
+      "nome": "headroom",
+      "serve": "Trabalha com logs, documentos e JSON/CSV grandes sem encher o contexto: resume primeiro, lê só o necessário.",
+      "onde": "Arquivos grandes em projetos."
+    },
+    {
+      "nome": "bulkpublish",
+      "serve": "Agenda posts, gerencia canais e acompanha métricas em 15 plataformas via MCP.",
+      "onde": "Agendamento de conteúdo."
+    },
+    {
+      "nome": "cartographer",
+      "serve": "Mapeia, audita e refatora bases de código grandes, com revisores especialistas e backlog priorizado.",
+      "onde": "Auditoria dos meus projetos."
+    },
+    {
+      "nome": "engineering",
+      "serve": "Fluxos de engenharia: standup, revisão de código, decisões de arquitetura, incidentes e documentação.",
+      "onde": "Rotina de desenvolvimento."
+    },
+    {
+      "nome": "design",
+      "serve": "Crítica de design, design system, UX writing, acessibilidade, pesquisa e handoff.",
+      "onde": "Revisão das interfaces que construo."
+    },
+    {
+      "nome": "claude-code-setup",
+      "serve": "Analisa um projeto e recomenda automações para o Claude Code: hooks, skills, MCPs e subagentes.",
+      "onde": "Configurar novos projetos."
+    },
+    {
+      "nome": "frontend-design",
+      "serve": "Skill de design de frontend para UI/UX.",
+      "onde": "Interfaces dos sites e sistemas."
+    },
+    {
+      "nome": "github",
+      "serve": "Servidor MCP oficial do GitHub: issues, pull requests, revisão e busca de repositórios.",
+      "onde": "Gestão de repositórios."
+    },
+    {
+      "nome": "21st",
+      "serve": "Encontra componentes de UI e temas e recupera o código.",
+      "onde": "Componentes para os sites."
+    },
+    {
+      "nome": "postiz",
+      "serve": "CLI de automação de redes sociais: agendar posts, mídia e métricas em 28+ plataformas.",
+      "onde": "Publicação e métricas."
+    }
+  ]
+}
