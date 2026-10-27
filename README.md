@@ -1,20 +1,32 @@
-# xlsx
+# Cadu Skills
 
-**Grupo:** Documentos  
-**Origem:** Anthropic
+As skills e os plugins de IA que eu utilizo, organizados em um só lugar: para que serve cada um, onde eu uso e como instalar.
 
-## Para que serve
-Lê, cria e edita planilhas (.xlsx, .csv).
+Site: https://www.caduteixeira.com/skills
 
-## Onde eu utilizo
-Planilhas e limpeza de dados.
+## Como este repositório funciona
 
-## Como instalar
+- `skills/`: 35 skills, uma pasta por skill, com ficha completa.
+- `plugins/`: 11 plugins instalados, uma pasta por plugin.
+- `guia-18-skills.md`: guia completo com as 18 skills essenciais e o processo da ideia ao produto.
+- `catalogo.json`: o mesmo catálogo em formato de dados.
+
+## Instalação rápida
+
 ```bash
-npx skills add anthropics/skills --skill xlsx
+# skills de um repositório (comando padrão do skills.sh)
+npx skills add <owner/repositorio> --skill <nome-da-skill>
+
+# exemplo
+npx skills add anthropics/skills --skill pdf
 ```
 
-## Antes de instalar
-Leia o `SKILL.md` e os scripts da skill. Teste em um projeto sem dados sensíveis.
+Plugins: no Claude Code ou Cowork, use `/plugin`, procure o nome e instale.
 
-Esta ficha é um guia. O conteúdo da skill pertence ao autor original e segue a licença dele.
+## Sobre direitos e segurança
+
+As fichas apontam para a origem e mostram o comando de instalação. O conteúdo das skills e dos plugins pertence aos autores originais. Leia o `SKILL.md` e os scripts antes de instalar e teste em um projeto sem dados sensíveis.
+
+## Licença
+
+MIT para o conteúdo escrito por mim. Veja `LICENSE`.
